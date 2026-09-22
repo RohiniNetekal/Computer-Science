@@ -47,3 +47,27 @@ payment.pay();
 - [ ] All checklist points understood
 - [ ] Example can be explained without looking at notes
 - [ ] At least 3 interview questions practiced
+
+
+## What to cover
+- [ ] extends
+- [ ] Overriding
+- [ ] super
+- [ ] Runtime polymorphism
+- [ ] Up/down casting
+- [ ] final
+- [ ] Composition vs inheritance
+
+## Concept in slightly more detail
+Inheritance models is-a relationships; polymorphism selects the runtime implementation.
+
+## Practical example
+```java
+Payment p=new CardPayment(); p.pay();
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

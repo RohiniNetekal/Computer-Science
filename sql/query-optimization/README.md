@@ -1,8 +1,5 @@
 # SQL Query Optimization — Practical Checklist
 
-A backend developer should be able to reason about a slow query before changing application code.
-
-## Example query
 
 ~~~sql
 SELECT merchant_id, COUNT(*) AS txn_count

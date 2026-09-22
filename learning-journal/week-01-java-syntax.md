@@ -51,3 +51,27 @@ public class Main {
 - [ ] All checklist points understood
 - [ ] Example can be explained without looking at notes
 - [ ] At least 3 interview questions practiced
+
+
+## What to cover
+- [ ] JDK vs JRE vs JVM
+- [ ] Program structure
+- [ ] Primitive vs reference types
+- [ ] Variables and casting
+- [ ] Operators
+- [ ] if/switch/loops
+- [ ] Basic debugging
+
+## Concept in slightly more detail
+Understand source → bytecode → JVM execution and Java's basic syntax.
+
+## Practical example
+```java
+int amount=100; if(amount>=100) System.out.println("Eligible");
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

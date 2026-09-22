@@ -23,3 +23,33 @@ Remember: Practice explaining why you chose an approach, its complexity, failure
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover
+- [ ] Core Java revision
+- [ ] Collections/streams
+- [ ] Spring/Spring Boot
+- [ ] Hibernate/JPA
+- [ ] SQL tuning
+- [ ] Microservices/Kafka
+- [ ] Security/JWT
+- [ ] Testing
+- [ ] Docker/CI/CD
+- [ ] System design
+- [ ] Project explanation
+
+## Concept in slightly more detail
+Revision should connect concepts to real backend scenarios and explain why an approach was chosen.
+
+## Practical example
+```text
+Requirement -> API -> Service -> DB
+                  -> Kafka
+                  -> Tests
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

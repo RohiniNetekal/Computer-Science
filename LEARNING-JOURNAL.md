@@ -376,3 +376,65 @@ Review the full backend stack, revisit weak areas, and practice explaining desig
 - Keep examples small and progressively build from Core Java to Spring Boot, persistence, SQL, messaging, security, testing, containers, CI/CD and system design.
 - When a topic depends on a later technology, learn its prerequisite first rather than jumping ahead.
 - Future GitHub activity should use real commit dates and should not be backdated.
+
+
+## Handy one-page references
+
+Each week now has a separate short explanation, example, key point and interview check. **Status below means the reference material has been created and stored; it does not claim historical completion or mastery.**
+
+- [x] Week 01 — [Java Setup & Syntax](learning-journal/week-01-java-syntax.md) — **Done: reference created**
+- [x] Week 02 — [Methods & Clean Code](learning-journal/week-02-methods-clean-code.md) — **Done: reference created**
+- [x] Week 03 — [OOP Basics](learning-journal/week-03-oop-basics.md) — **Done: reference created**
+- [x] Week 04 — [Inheritance & Polymorphism](learning-journal/week-04-inheritance-polymorphism.md) — **Done: reference created**
+- [x] Week 05 — [Abstraction & Interfaces](learning-journal/week-05-abstraction-interfaces.md) — **Done: reference created**
+- [x] Week 06 — [Strings](learning-journal/week-06-strings.md) — **Done: reference created**
+- [x] Week 07 — [Arrays & Complexity](learning-journal/week-07-arrays-complexity.md) — **Done: reference created**
+- [x] Week 08 — [Collections Basics](learning-journal/week-08-collections.md) — **Done: reference created**
+- [x] Week 09 — [Generics](learning-journal/week-09-generics.md) — **Done: reference created**
+- [x] Week 10 — [Exceptions](learning-journal/week-10-exceptions.md) — **Done: reference created**
+- [x] Week 11 — [Java 8 Foundations](learning-journal/week-11-java8.md) — **Done: reference created**
+- [x] Week 12 — [Streams Basics](learning-journal/week-12-streams.md) — **Done: reference created**
+- [x] Week 13 — [Optional](learning-journal/week-13-optional.md) — **Done: reference created**
+- [x] Week 14 — [Records & Modern Java](learning-journal/week-14-modern-java.md) — **Done: reference created**
+- [x] Week 15 — [Immutability](learning-journal/week-15-immutability.md) — **Done: reference created**
+- [x] Week 16 — [equals & hashCode](learning-journal/week-16-equals-hashcode.md) — **Done: reference created**
+- [x] Week 17 — [Concurrency Basics](learning-journal/week-17-concurrency.md) — **Done: reference created**
+- [x] Week 18 — [CompletableFuture](learning-journal/week-18-completablefuture.md) — **Done: reference created**
+- [x] Week 19 — [JVM Basics](learning-journal/week-19-jvm.md) — **Done: reference created**
+- [x] Week 20 — [Garbage Collection](learning-journal/week-20-garbage-collection.md) — **Done: reference created**
+- [x] Week 21 — [Spring Fundamentals](learning-journal/week-21-spring-fundamentals.md) — **Done: reference created**
+- [x] Week 22 — [Spring Boot Basics](learning-journal/week-22-spring-boot.md) — **Done: reference created**
+- [x] Week 23 — [REST Fundamentals](learning-journal/week-23-rest.md) — **Done: reference created**
+- [x] Week 24 — [Spring MVC](learning-journal/week-24-spring-mvc.md) — **Done: reference created**
+- [x] Week 25 — [Error Handling](learning-journal/week-25-error-handling.md) — **Done: reference created**
+- [x] Week 26 — [Hibernate Basics](learning-journal/week-26-hibernate.md) — **Done: reference created**
+- [x] Week 27 — [JPA Mappings](learning-journal/week-27-jpa-mappings.md) — **Done: reference created**
+- [x] Week 28 — [Fetch Strategies](learning-journal/week-28-fetch-strategies.md) — **Done: reference created**
+- [x] Week 29 — [Transactions](learning-journal/week-29-transactions.md) — **Done: reference created**
+- [x] Week 30 — [SQL Foundations](learning-journal/week-30-sql-foundations.md) — **Done: reference created**
+- [x] Week 31 — [SQL Joins](learning-journal/week-31-joins.md) — **Done: reference created**
+- [x] Week 32 — [SQL Aggregations](learning-journal/week-32-aggregations.md) — **Done: reference created**
+- [x] Week 33 — [Database Indexes](learning-journal/week-33-indexes.md) — **Done: reference created**
+- [x] Week 34 — [Query Tuning Basics](learning-journal/week-34-query-tuning.md) — **Done: reference created**
+- [x] Week 35 — [Oracle Basics](learning-journal/week-35-oracle.md) — **Done: reference created**
+- [x] Week 36 — [Microservices Basics](learning-journal/week-36-microservices.md) — **Done: reference created**
+- [x] Week 37 — [API Reliability](learning-journal/week-37-api-reliability.md) — **Done: reference created**
+- [x] Week 38 — [Kafka Basics](learning-journal/week-38-kafka-basics.md) — **Done: reference created**
+- [x] Week 39 — [Kafka Delivery & Idempotency](learning-journal/week-39-kafka-delivery.md) — **Done: reference created**
+- [x] Week 40 — [Spring Security Basics](learning-journal/week-40-spring-security.md) — **Done: reference created**
+- [x] Week 41 — [JWT Basics](learning-journal/week-41-jwt.md) — **Done: reference created**
+- [x] Week 42 — [Testing Foundations](learning-journal/week-42-testing-foundations.md) — **Done: reference created**
+- [x] Week 43 — [JUnit & Mockito](learning-journal/week-43-junit-mockito.md) — **Done: reference created**
+- [x] Week 44 — [Docker Basics](learning-journal/week-44-docker.md) — **Done: reference created**
+- [x] Week 45 — [CI/CD Basics](learning-journal/week-45-cicd.md) — **Done: reference created**
+- [x] Week 46 — [Git Fundamentals](learning-journal/week-46-git.md) — **Done: reference created**
+- [x] Week 47 — [Design Patterns](learning-journal/week-47-design-patterns.md) — **Done: reference created**
+- [x] Week 48 — [SOLID Principles](learning-journal/week-48-solid.md) — **Done: reference created**
+- [x] Week 49 — [System Design Basics](learning-journal/week-49-system-design.md) — **Done: reference created**
+- [x] Week 50 — [AWS Fundamentals](learning-journal/week-50-aws.md) — **Done: reference created**
+- [x] Week 51 — [Backend Integration](learning-journal/week-51-backend-integration.md) — **Done: reference created**
+- [x] Week 52 — [Interview Revision](learning-journal/week-52-interview-revision.md) — **Done: reference created**
+
+### Portfolio status
+
+**52/52 weekly concept references created.** Use these as quick revision cards and expand individual topics when deeper practice is needed.

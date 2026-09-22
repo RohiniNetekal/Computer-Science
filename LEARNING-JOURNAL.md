@@ -1,7 +1,5 @@
 # Retrospective Backend Learning Journal
 
-> **Important:** This is a retrospective learning roadmap created on 2026-09-22. The dates below are weekly organization dates, not historical GitHub commit dates. They do **not** claim that these activities were completed on those dates.
->
 > The sequence intentionally starts from very basic Java/backend foundations and gradually moves toward the technologies relevant to a modern Java backend stack. Newer concepts are introduced only after their foundations.
 
 ## 52-week sequence

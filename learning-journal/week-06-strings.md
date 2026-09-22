@@ -49,3 +49,27 @@ System.out.println(a == b);
 - [ ] All checklist points understood
 - [ ] Example can be explained without looking at notes
 - [ ] At least 3 interview questions practiced
+
+
+## What to cover
+- [ ] Immutability
+- [ ] String pool
+- [ ] == vs equals
+- [ ] StringBuilder/StringBuffer
+- [ ] Common methods
+- [ ] Concatenation performance
+- [ ] Formatting/parsing
+
+## Concept in slightly more detail
+String is immutable. Equality and the string pool are important interview areas.
+
+## Practical example
+```java
+String a="Java"; String b=new String("Java"); System.out.println(a.equals(b));
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

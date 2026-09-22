@@ -22,3 +22,27 @@ Remember: If equals says two objects are equal, their hashCode values must match
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover
+- [ ] equals contract
+- [ ] hashCode contract
+- [ ] == vs equals
+- [ ] HashMap/HashSet
+- [ ] Business-key equality
+- [ ] Mutable keys
+- [ ] Records
+
+## Concept in slightly more detail
+Hash-based collections depend on equal objects having equal hash codes. Mutable keys can break lookup.
+
+## Practical example
+```java
+record User(Long id,String name) {} Set<User> users=new HashSet<>();
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

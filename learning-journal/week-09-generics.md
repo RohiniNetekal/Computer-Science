@@ -21,3 +21,29 @@ Remember: List<String> is safer than a raw List.
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover in this topic
+- [ ] Generic classes
+- [ ] Generic methods
+- [ ] Type safety
+- [ ] Diamond operator
+- [ ] Bounded types
+- [ ] ? extends and ? super
+- [ ] Type erasure
+
+## Concept in slightly more detail
+Generics let the compiler enforce data types. Wildcards are important when designing reusable APIs.
+
+## Practical example
+```java
+List<String> names = new ArrayList<>();
+names.add("Rohini");
+String name = names.get(0);
+```
+
+## Done checklist
+- [x] Quick reference created
+- [ ] All checklist points understood
+- [ ] Example can be explained without looking at notes
+- [ ] At least 3 interview questions practiced

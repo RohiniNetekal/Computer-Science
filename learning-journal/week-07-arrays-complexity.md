@@ -47,3 +47,28 @@ for (int id : ids) System.out.println(id);
 - [ ] All checklist points understood
 - [ ] Example can be explained without looking at notes
 - [ ] At least 3 interview questions practiced
+
+
+## What to cover
+- [ ] Declaration
+- [ ] Indexing
+- [ ] Traversal
+- [ ] 2D arrays
+- [ ] Searching/sorting
+- [ ] Fixed size
+- [ ] Big-O
+- [ ] Time vs space
+
+## Concept in slightly more detail
+Arrays provide fixed-size indexed storage; learn to estimate loop and nested-loop cost.
+
+## Practical example
+```java
+int[] ids={10,20,30}; for(int id:ids) System.out.println(id);
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

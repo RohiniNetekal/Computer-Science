@@ -22,3 +22,28 @@ Remember: Favor composition when reuse does not represent a true is-a relationsh
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover in this topic
+- [ ] extends and parent/child classes
+- [ ] Method overriding
+- [ ] super keyword
+- [ ] Runtime polymorphism
+- [ ] Upcasting and downcasting
+- [ ] final classes/methods
+- [ ] Composition vs inheritance
+
+## Concept in slightly more detail
+Inheritance models an is-a relationship. Polymorphism lets code work with a parent type while the actual child implementation runs.
+
+## Practical example
+```java
+Payment payment = new CardPayment();
+payment.pay();
+```
+
+## Done checklist
+- [x] Quick reference created
+- [ ] All checklist points understood
+- [ ] Example can be explained without looking at notes
+- [ ] At least 3 interview questions practiced

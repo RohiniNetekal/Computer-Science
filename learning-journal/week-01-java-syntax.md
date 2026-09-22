@@ -22,3 +22,32 @@ Remember: Java is statically typed; every variable has a type.
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover in this topic
+- [ ] JDK vs JRE vs JVM
+- [ ] Java program structure and main method
+- [ ] Primitive vs reference types
+- [ ] Variables, constants and type casting
+- [ ] Operators and expressions
+- [ ] if/else, switch, for, while, do-while
+- [ ] Input/output and basic debugging
+
+## Concept in slightly more detail
+Understand how source code becomes bytecode and runs on the JVM. Learn declarations, scope, operators and control flow before moving to OOP.
+
+## Practical example
+```java
+public class Main {
+    public static void main(String[] args) {
+        int amount = 100;
+        if (amount >= 100) System.out.println("Eligible");
+    }
+}
+```
+
+## Done checklist
+- [x] Quick reference created
+- [ ] All checklist points understood
+- [ ] Example can be explained without looking at notes
+- [ ] At least 3 interview questions practiced

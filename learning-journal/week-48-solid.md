@@ -20,3 +20,28 @@ Remember: DIP means high-level business logic should depend on abstractions, not
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover
+- [ ] SRP
+- [ ] OCP
+- [ ] LSP
+- [ ] ISP
+- [ ] DIP
+- [ ] Dependency inversion
+- [ ] Composition
+- [ ] Refactoring examples
+
+## Concept in slightly more detail
+SOLID provides principles for maintainable object-oriented design and clear dependencies.
+
+## Practical example
+```text
+interface NotificationSender { void send(String message); }
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

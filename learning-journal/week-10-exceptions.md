@@ -52,3 +52,27 @@ try {
 - [ ] All checklist points understood
 - [ ] Example can be explained without looking at notes
 - [ ] At least 3 interview questions practiced
+
+
+## What to cover
+- [ ] Hierarchy
+- [ ] Checked/unchecked
+- [ ] try/catch/finally
+- [ ] throw/throws
+- [ ] Custom exceptions
+- [ ] Propagation
+- [ ] Useful messages
+
+## Concept in slightly more detail
+Exceptions represent abnormal execution; learn where to recover and where to propagate.
+
+## Practical example
+```java
+try { Integer.parseInt("abc"); } catch(NumberFormatException e) { System.out.println("Invalid"); }
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

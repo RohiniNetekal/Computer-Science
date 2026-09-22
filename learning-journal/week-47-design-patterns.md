@@ -22,3 +22,27 @@ Remember: Use a pattern when it makes the design clearer; do not add patterns ju
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover
+- [ ] Strategy
+- [ ] Factory
+- [ ] Builder
+- [ ] Observer concept
+- [ ] Factory vs dependency injection
+- [ ] When patterns help
+- [ ] Avoiding overengineering
+
+## Concept in slightly more detail
+Patterns are reusable design ideas. Use them when they clarify change points rather than for pattern-name coverage.
+
+## Practical example
+```text
+interface PaymentStrategy { void pay(BigDecimal amount); }
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

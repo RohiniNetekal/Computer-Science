@@ -21,3 +21,31 @@ Remember: Keep images small and configuration outside the image when possible.
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover
+- [ ] Image vs container
+- [ ] Dockerfile
+- [ ] Layers
+- [ ] Ports
+- [ ] Environment variables
+- [ ] Volumes
+- [ ] Networks
+- [ ] Multi-stage builds
+- [ ] Health checks
+
+## Concept in slightly more detail
+Docker packages an application and runtime into a portable container image.
+
+## Practical example
+```text
+FROM eclipse-temurin:21-jre
+COPY app.jar app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

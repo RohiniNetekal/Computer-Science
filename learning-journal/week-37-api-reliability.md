@@ -21,3 +21,28 @@ Remember: Never retry blindly; retries can multiply load during an outage.
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover
+- [ ] Timeouts
+- [ ] Retries
+- [ ] Backoff
+- [ ] Idempotency
+- [ ] Circuit breaker concept
+- [ ] Rate limiting
+- [ ] Correlation IDs
+- [ ] Retry storms
+
+## Concept in slightly more detail
+Remote calls fail differently from local calls. Timeouts and controlled retries prevent cascading failures.
+
+## Practical example
+```text
+Request -> timeout -> limited retry -> final failure
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

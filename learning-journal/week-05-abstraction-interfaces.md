@@ -24,3 +24,30 @@ Remember: Program against an interface when you want replaceable implementations
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover in this topic
+- [ ] Abstract classes
+- [ ] Interfaces
+- [ ] implements keyword
+- [ ] Multiple interfaces
+- [ ] Default/static interface methods
+- [ ] Functional interfaces
+- [ ] Programming to interfaces
+
+## Concept in slightly more detail
+Abstraction hides implementation details behind a contract. Interfaces are useful for replaceable implementations and dependency injection.
+
+## Practical example
+```java
+interface Payment { void pay(BigDecimal amount); }
+class UpiPayment implements Payment {
+    public void pay(BigDecimal amount) { System.out.println(amount); }
+}
+```
+
+## Done checklist
+- [x] Quick reference created
+- [ ] All checklist points understood
+- [ ] Example can be explained without looking at notes
+- [ ] At least 3 interview questions practiced

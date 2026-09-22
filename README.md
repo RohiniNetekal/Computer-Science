@@ -246,8 +246,6 @@ Includes concepts around:
 
 ## 🎯 Learning Approach
 
-Each topic is progressively developed using:
-
 1. **Concept** — what it means
 2. **Why it matters** — where it is useful
 3. **Practical example** — small implementation
@@ -256,17 +254,9 @@ Each topic is progressively developed using:
 6. **Interview questions** — common ways the concept is tested
 7. **Practice checklist** — what still needs deeper work
 
-A topic is not marked complete merely because a file exists. The checklist is updated as the material becomes sufficiently useful for revision and interview preparation.
-
 ---
 
 ## 📈 Continuous Development
-
-This is an **actively maintained portfolio**.
-
-The repository is intentionally built incrementally so that new work adds meaningful technical depth rather than artificial activity.
-
-Future additions will include deeper implementations for:
 
 - HashMap internals and concurrency
 - Advanced Java concurrency
@@ -297,26 +287,11 @@ This repository is intentionally separate from employer code. It demonstrates tr
 
 ## 📌 Current Goal
 
-Build a strong, transparent and continuously improving portfolio demonstrating:
+Build a strong, transparent and continuously improving:
 
 **Core Java → Spring Boot → REST → Hibernate/JPA → SQL → Microservices → Kafka → Security → Testing → Docker/CI/CD → AWS → System Design**
 
 with enough practical depth to support **Java Backend Developer / Senior Java Backend interview preparation**.
 
----
-
-## ⚠️ Portfolio Integrity
-
-- No employer source code is included.
-- No client/customer data is included.
-- No passwords, tokens or credentials are stored.
-- Learning/demo work is clearly distinguished from professional experience.
-- Retrospective weekly dates in the learning journal are organizational references, **not claims of historical GitHub commits**.
-
----
-
-## ⭐ Repository Purpose
-
-If you are reviewing this repository as a recruiter or engineer, the intended signal is simple:
 
 > **I learn backend concepts by implementing them, documenting the reasoning, testing the ideas, and continuously improving the depth of the work.**

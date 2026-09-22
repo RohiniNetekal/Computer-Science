@@ -23,3 +23,32 @@ Remember: Integration is about clear boundaries and reliable flow between compon
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover
+- [ ] Controller/service/DAO flow
+- [ ] Database transaction
+- [ ] Kafka event flow
+- [ ] Security
+- [ ] Validation
+- [ ] Error handling
+- [ ] Tests
+- [ ] Docker
+- [ ] CI/CD
+- [ ] Logging/monitoring
+
+## Concept in slightly more detail
+A production backend combines all layers with clear boundaries and reliable data flow.
+
+## Practical example
+```text
+REST -> Service -> DB
+       -> Kafka
+Security -> Tests -> CI/CD
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

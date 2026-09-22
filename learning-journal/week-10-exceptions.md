@@ -23,3 +23,32 @@ Remember: Handle an exception where you can recover; otherwise propagate it mean
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover in this topic
+- [ ] Exception hierarchy
+- [ ] Checked vs unchecked
+- [ ] try/catch/finally
+- [ ] throw vs throws
+- [ ] Custom exceptions
+- [ ] Multiple catch blocks
+- [ ] Exception propagation
+- [ ] Good error messages
+
+## Concept in slightly more detail
+Exceptions represent abnormal execution. Learn where to catch, where to propagate and how to preserve useful debugging information.
+
+## Practical example
+```java
+try {
+    Integer.parseInt("abc");
+} catch (NumberFormatException e) {
+    System.out.println("Invalid number");
+}
+```
+
+## Done checklist
+- [x] Quick reference created
+- [ ] All checklist points understood
+- [ ] Example can be explained without looking at notes
+- [ ] At least 3 interview questions practiced

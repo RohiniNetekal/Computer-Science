@@ -51,3 +51,27 @@ class UpiPayment implements Payment {
 - [ ] All checklist points understood
 - [ ] Example can be explained without looking at notes
 - [ ] At least 3 interview questions practiced
+
+
+## What to cover
+- [ ] Abstract classes
+- [ ] Interfaces
+- [ ] implements
+- [ ] Multiple interfaces
+- [ ] Default methods
+- [ ] Functional interfaces
+- [ ] Programming to interfaces
+
+## Concept in slightly more detail
+Abstraction exposes a contract while hiding implementation details.
+
+## Practical example
+```java
+interface Payment { void pay(BigDecimal amount); }
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

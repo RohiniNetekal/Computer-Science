@@ -32,6 +32,4 @@ skip   process business transaction
 - Preserve correlation IDs for tracing.
 - Monitor consumer lag and processing failures.
 
-Kafka delivery semantics do not automatically make a business operation idempotent. The application still needs a duplicate-handling strategy.
-
-This is conceptual learning material, not a claim of production Kafka implementation.
+Kafka delivery semantics do not automatically make a business operation idempotent.

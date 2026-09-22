@@ -25,3 +25,28 @@ Remember: Return useful error codes/messages without exposing internal implement
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover
+- [ ] Exception hierarchy
+- [ ] @RestControllerAdvice
+- [ ] @ExceptionHandler
+- [ ] Validation errors
+- [ ] HTTP status mapping
+- [ ] Error response DTO
+- [ ] Logging
+- [ ] Do not expose internals
+
+## Concept in slightly more detail
+Centralized error handling keeps API responses consistent and controllers clean.
+
+## Practical example
+```java
+@ExceptionHandler(NotFoundException.class) ErrorResponse handle(NotFoundException e){return new ErrorResponse("NOT_FOUND",e.getMessage());}
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

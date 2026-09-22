@@ -21,3 +21,29 @@ Remember: Prefer small methods with clear names and one responsibility.
 - What is it?
 - Why would you use it?
 - What is one common mistake or trade-off?
+
+
+## What to cover in this topic
+- [ ] Method declaration and invocation
+- [ ] Parameters and return values
+- [ ] Pass-by-value in Java
+- [ ] Method overloading
+- [ ] Local variable scope
+- [ ] Naming and single responsibility
+- [ ] Avoiding duplicated logic
+
+## Concept in slightly more detail
+A method packages one small piece of behavior. Good methods are easy to name, test and reuse.
+
+## Practical example
+```java
+static double total(double price, int quantity) {
+    return price * quantity;
+}
+```
+
+## Done checklist
+- [x] Quick reference created
+- [ ] All checklist points understood
+- [ ] Example can be explained without looking at notes
+- [ ] At least 3 interview questions practiced

@@ -50,3 +50,29 @@ Map<Long,String> users = new HashMap<>();
 - [ ] All checklist points understood
 - [ ] Example can be explained without looking at notes
 - [ ] At least 3 interview questions practiced
+
+
+## What to cover
+- [ ] Hierarchy
+- [ ] List/Set/Map
+- [ ] ArrayList
+- [ ] LinkedList
+- [ ] HashSet
+- [ ] HashMap
+- [ ] TreeSet/TreeMap
+- [ ] Iterator
+- [ ] Choosing collections
+
+## Concept in slightly more detail
+Collections solve storage and lookup problems. Know ordering, duplicates and typical complexity.
+
+## Practical example
+```java
+List<String> l=new ArrayList<>(); Set<String> s=new HashSet<>(); Map<Long,String> m=new HashMap<>();
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

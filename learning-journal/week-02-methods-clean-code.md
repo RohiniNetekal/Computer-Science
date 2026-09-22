@@ -47,3 +47,27 @@ static double total(double price, int quantity) {
 - [ ] All checklist points understood
 - [ ] Example can be explained without looking at notes
 - [ ] At least 3 interview questions practiced
+
+
+## What to cover
+- [ ] Declaration and invocation
+- [ ] Parameters/returns
+- [ ] Pass-by-value
+- [ ] Overloading
+- [ ] Scope
+- [ ] Naming
+- [ ] Single responsibility
+
+## Concept in slightly more detail
+Methods package reusable behavior and should stay focused.
+
+## Practical example
+```java
+static double total(double p,int q){ return p*q; }
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced

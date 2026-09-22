@@ -51,3 +51,27 @@ class Merchant {
 - [ ] All checklist points understood
 - [ ] Example can be explained without looking at notes
 - [ ] At least 3 interview questions practiced
+
+
+## What to cover
+- [ ] Class/object
+- [ ] Fields/methods
+- [ ] Constructors
+- [ ] this
+- [ ] Access modifiers
+- [ ] Encapsulation
+- [ ] Controlled mutation
+
+## Concept in slightly more detail
+OOP models state and behavior while encapsulation protects internal state.
+
+## Practical example
+```java
+class Merchant { private final String name; Merchant(String n){name=n;} String getName(){return name;} }
+```
+
+## Done checklist
+- [x] Reference created
+- [ ] All checklist points understood
+- [ ] Example explained without notes
+- [ ] 3 interview questions practiced
